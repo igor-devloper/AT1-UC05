@@ -6,7 +6,7 @@ namespace AT1_UC05
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
-}
+
+
