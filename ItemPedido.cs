@@ -5,7 +5,7 @@ namespace AT1_UC05
   public class ItemPedido
   {
     public string descricao { get;set; }
-    public double valor_unitario { get;set; } 
+    public float valor_unitario { get;set; } 
     public int quantidade { get;set; }
 
 
@@ -16,7 +16,7 @@ namespace AT1_UC05
       Console.WriteLine("Quantos você itens vc deseja?");
       quantidade = int.Parse(Console.ReadLine());
       Console.WriteLine("Qual o valor do Produto?");
-      valor_unitario = double.Parse(Console.ReadLine());
+      valor_unitario = float.Parse(Console.ReadLine());
     }
   }
   

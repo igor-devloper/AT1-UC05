@@ -3,10 +3,12 @@ using System.Collections.Generic;
 
 namespace AT1_UC05
 {
-  public class Pedido
+  class Pedido
   {
-    public Ilist<ItemPedido> Pedidos { get; set; }
-  
-  public 
+    private IList<ItemPedido> Pedidos;
+    private List<float> listaDePedido = new List<float>();
+    public Pedido()
+    {}
+
   }
 }
