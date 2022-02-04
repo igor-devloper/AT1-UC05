@@ -1,16 +1,18 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace AT1_UC05
 {
-    class Program
+  internal class Program
+  {
+    
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        var itens = new ItemPedido()
-
-        
-        
-        }
+      ItemPedido pedido = new ItemPedido();
+      pedido.RealizarPedido();
+      Pedido pedidos = new Pedido();
+      pedidos.InfosPedidos();
     }
+  }
+}
 
 
