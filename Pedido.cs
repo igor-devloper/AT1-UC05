@@ -6,16 +6,21 @@ namespace AT1_UC05
   class Pedido
   {
     public List<ItemPedido> listaDePedido = new List<ItemPedido>();
-    public void AddPedido(ItemPedido c)
+    public void AddPedido(string descricao, float valor_unitario, int quantidade)
     {
-        listaDePedido.Add(c);
+        listaDePedido.Add(new ItemPedido(descricao, valor_unitario,quantidade));
     }
-    public void InfosPedidos()
+    public double TotalDoPedido()
     {
-       foreach(ItemPedido c in listaDePedido)
+      double total = 0;
+
+
+       foreach(var itens in listaDePedido)
       {
-        Console.WriteLine("Produto" +c  + "valor R$" +c.valor_unitario + ".");
+        Console.WriteLine("Produto: {0}, Valor: {1}, Quantidade: {2}" , itens.descricao, itens.valor_unitario, itens.quantidade );
+        total = total + (itens.valor_unitario * itens.quantidade);
       }
+      return total;
     }
   
   }
