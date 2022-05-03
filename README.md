@@ -17,10 +17,10 @@ Como um primeiro protótipo do projeto, faça um sistema de pedidos de restauran
 - Inclua também um construtor em Pedido para instanciar uma nova lista na propriedade criada.
 - Crie um programa que permita informar vários itens de um pedido. O usuário informa descrição, valor e quantidade e o programa pergunta se o usuário deseja inserir novo pedido. Se sim, o usuário pode incluir novo pedido. Se não, o programa exibe o total do pedido.
 
-
-# Ìcones 
-
-- :package: nova funcionalidade
-- :up: atualização
-- :btleee: correção de bug
+# Ìcones
+- :package: new functions
+- :balloon: finished project
+- :up: Updates
+- :school_satchel: initial commit
+- :beetle: bug fix
 - :checkered_flag: release
